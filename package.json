@@ -1,0 +1,18 @@
+{
+  "name": "welcome-message",
+  "version": "1.0.1",
+  "description": "Exports a different message if used on node or browser",
+  "main": "index.js",
+  "browser": {
+    "./index.js": "./browser.js"
+  },
+  "react-native": {
+    "./index.js": "./browser.js"
+  },
+  "author": "jgalmeida",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgalmeida/welcome-message.git"
+  },
+  "license": "ISC"
+}
