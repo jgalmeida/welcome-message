@@ -1,6 +1,6 @@
 {
   "name": "welcome-message",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Exports a different message if used on node or browser",
   "main": "index.js",
   "browser": {
